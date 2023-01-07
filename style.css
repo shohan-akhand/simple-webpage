@@ -1,0 +1,221 @@
+* {
+  
+  font-family: "Open Sans", sans-serif;
+}
+.banner {
+  background-image: url("./images/banner/banner1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  width: 100%;
+}
+.banner-text {
+  padding-top: 90px;
+  margin: auto;
+  padding-right: 80px;
+  text-align: end;
+}
+.banner-title {
+  font-weight: 900;
+  font-size: 50px;
+}
+.banner-btn {
+  background-color: purple;
+  color: aliceblue;
+  border: none;
+  padding: 16px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 15px;
+}
+.banner-btn:hover {
+  background-color: blueviolet;
+  box-shadow: 10px 12px 10px;
+}
+/* <!-- mean --> */
+.cointainer {
+  padding: 100px;
+}
+.main-cointainer {
+  gap: 100px;
+  display: flex;
+  align-items: center;
+}
+.img-bg {
+  height: 500px;
+  width: 400px;
+}
+.main-title {
+  font-size: 45px;
+  margin-left: 60px;
+}
+.main-des {
+  font-size: 12px;
+  margin-left: 60px;
+}
+.font-size {
+  font-size: 12px;
+  margin-left: 60px;
+}
+.font-check {
+  color: rgb(36, 170, 36);
+}
+/* My Plans */
+.plan-header {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 600;
+  font-size: 40px;
+  color: purple;
+}
+.plan-continer {
+  justify-content: center;
+  gap: 100px;
+  text-align: center;
+  display: flex;
+}
+.plan-title {
+  font-weight: 800;
+}
+.plan-dis {
+  font-size: 16px;
+  color: gray;
+}
+.plan {
+  padding: 15px;
+}
+
+/* <!-- Linier grident --> */
+.linear-title {
+  font-weight: 1000px;
+  color: aliceblue;
+  font-size: 40px;
+  margin-top: auto;
+  padding-top: 75px;
+  padding-left: 20px;
+}
+.gradient-container {
+  background-image: url(./images/watch.png), url(./images/gradient1.png);
+  background-blend-mode: multiply;
+  background-size: 100%;
+  width: 1100px;
+  height: 250px;
+  background-repeat: no-repeat;
+  margin-top: 80px;
+  margin-left: 130px;
+  margin-right: 145px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+.liner-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: purple;
+  margin-bottom: 80px;
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: 800;
+}
+
+/* <!--Experiences--> */
+.experience-header {
+  color: rebeccapurple;
+  text-align: center;
+  font-weight: 800px;
+  margin-top: 75px;
+  font-size: 35px;
+}
+.single-experience {
+  box-shadow: 10px 10px 30px gray;
+  height: 70%;
+  background-color: white;
+  margin-top: 80px;
+  position: static;
+}
+.experience-area {
+  display: flex;
+  background-position: left 80%;
+  height: 450px;
+}
+#present {
+  border-left: 7px solid;
+  margin-right: 20px;
+  border-image: linear-gradient(rgb(255, 0, 0), tomato);
+  border-image-slice: 1;
+  padding-left: 10px;
+}
+#began {
+  border-left: 7px solid;
+  border-image: linear-gradient(rgb(25, 0, 255), rgb(76, 238, 238));
+  border-image-slice: 1;
+  padding-left: 10px;
+}
+/* Footer */
+footer {
+  background-color: black;
+}
+.Future {
+  font-size: 35px;
+  font-weight: 900;
+}
+.continer {
+  gap: 250px;
+  padding: 100px 200px 100px;
+  color: white;
+  display: flex;
+}
+.footer-text {
+  font-size: 12px;
+}
+.Subscribe {
+  font-weight: 700;
+  font-size: 25px;
+}
+.input-coler {
+  padding: 10px;
+
+  background-color: black;
+  color: white;
+}
+.footer-btn {
+  margin-top: 12px;
+  padding: 12px;
+  border-radius: 4px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  background-color: purple;
+    to right,
+    rgb(112, 9, 216),
+    rgb(11, 109, 220)
+  );
+}
+.logo {
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+}
+
+@media only screen and (max-width: 888px) {
+  .main-cointainer,
+  .plan-continer,
+  .Popular-continer,
+  .continer {
+    display: block;
+  }
+  .input-coler {
+    height: 10px;
+    width: 80px;
+  }
+  .Popular {
+    margin-top: 30px;
+  }
+  .banner-text {
+    padding-top: 40px;
+  }
+  .img-bg {
+    height: 300px;
+    width: 180px;
+  }
+}
